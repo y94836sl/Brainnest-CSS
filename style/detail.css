@@ -1,3 +1,19 @@
+@font-face {
+    font-family: "Bold";
+    src: url(../Roboto/Roboto-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "ThinIt";
+    src: url(../Roboto/Roboto-ThinItalic.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Thin";
+    src: url(../Roboto/Roboto-Thin.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Regular";
+    src: url(../Roboto/Roboto-Regular.ttf) format("truetype");
+}
 .header,.footer{
     background-color: #1f2937;
     font-size: 18px;
@@ -22,38 +38,12 @@
     font-size: 24px;
     color: #f9faf8;
 }
-.intro{
-    margin-left: 200px;
-    margin-top: 20px;
-    width: 600px;
-    height: 500px;
-    display: inline-block;
-    padding: auto;
-}
-.intro h1{
-    font-size: 48px;
-    font-weight: 800;/*extra-bold*/
-    color: #f9faf8;
-}
-#introImage{
-    width: 600px;
-    height: auto;
-}
-button,.ads{
-   background-color: #3882f6;
-   color: #f9faf8;
-   padding: 6px 22px;
-   border-radius: 9px;
-}
-button:hover{
-    background-color: #1f2937;
-}
 .info{
     padding: 100px;
 }
 .example{
     font-size: 36px;
-    font-weight: 800;/*extra-bold*/
+    font-family: "Bold";
     color: #1f2937;
     text-align: center;
 }
@@ -68,49 +58,6 @@ button:hover{
 .flexBox .img{
     width: 300px;
     height: 200px;
-}
-.quote{
-    height: auto;
-    background-color: #e5e7eb;
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
-    color: #1f2937;
-    text-align: center;
-    padding: 150px;
-    /* display: flex;
-    justify-content: center;
-    align-items: baseline; */
-
-}
-.author{
-    font-size: 36px;
-    font-style: normal;
-    font-weight: bold;
-    text-align: right;
-}
-.ads{
-    display: inline-flex;
-    /* justify-content: center; */
-    width: 900px;
-    height: 160px;
-    margin: 80px;
-    margin-left: 400px;
-}
-.text{
-    display: inline-block;
-    margin-left: 100px;
-    font-weight: 300;
-}
-#join{
-    margin-top: 50px;
-    font-size: larger;
-    font-weight: bold;
-}
-.text button{
-    margin-top: 60px;
-    margin-left: 100px;
-    border-color: #f9faf8;
 }
 .footer{
     padding: 20px 0;
