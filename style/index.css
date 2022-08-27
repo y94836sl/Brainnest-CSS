@@ -1,4 +1,20 @@
-.header,.footer{
+@font-face {
+    font-family: "Bold";
+    src: url(../Roboto/Roboto-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "ThinIt";
+    src: url(../Roboto/Roboto-ThinItalic.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Thin";
+    src: url(../Roboto/Roboto-Thin.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Regular";
+    src: url(../Roboto/Roboto-Regular.ttf) format("truetype");
+}
+header,footer{
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
@@ -8,6 +24,7 @@
     margin-left: 200px;
     display: flex;
     flex-direction: row;
+    font-family: "Regular";
 }
 .tab a{
     padding: 20px;
@@ -21,14 +38,13 @@
 #logo{
     font-size: 24px;
     color: #f9faf8;
+    font-family: "Bold";
 }
 .intro{
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 20px;
-    width: 600px;
-    height: 500px;
-    display: inline-block;
-    padding: auto;
+    display: flex;
+    padding: 50px;
 }
 .intro h1{
     font-size: 48px;
@@ -38,6 +54,8 @@
 #introImage{
     width: 600px;
     height: auto;
+    margin-right: 150px;
+    margin-left: 30px;
 }
 button,.ads{
    background-color: #3882f6;
@@ -48,12 +66,12 @@ button,.ads{
 button:hover{
     background-color: #1f2937;
 }
-.info{
-    padding: 100px;
+main{
+    padding: 70px;
 }
 .example{
     font-size: 36px;
-    font-weight: 800;/*extra-bold*/
+    font-family: "Bold";
     color: #1f2937;
     text-align: center;
 }
@@ -73,25 +91,18 @@ button:hover{
     height: auto;
     background-color: #e5e7eb;
     font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
+    font-family: "ThinIt";
     color: #1f2937;
     text-align: center;
-    padding: 150px;
-    /* display: flex;
-    justify-content: center;
-    align-items: baseline; */
-
+    padding: 100px;
 }
 .author{
     font-size: 36px;
-    font-style: normal;
-    font-weight: bold;
+    font-family: "Regular";
     text-align: right;
 }
 .ads{
     display: inline-flex;
-    /* justify-content: center; */
     width: 900px;
     height: 160px;
     margin: 80px;
@@ -112,7 +123,7 @@ button:hover{
     margin-left: 100px;
     border-color: #f9faf8;
 }
-.footer{
+footer{
     padding: 20px 0;
     text-align: center;
 }
